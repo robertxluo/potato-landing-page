@@ -37,7 +37,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4.875rem;
+  padding-top: 4.875rem;
 }
 
 .header {
@@ -125,6 +125,25 @@ a {
   line-height: 1.25;
 }
 
+/* Feature 2 Section */
+
+.feature2 {
+  background-color: #749865;
+  color: #f1f1f1;
+  min-height: 100vh;
+}
+
+.feature2-header {
+  font-weight: 300;
+  margin-bottom: 3.125rem;
+}
+
+.feature2-sub {
+  font-weight: 300;
+  line-height: 1.25;
+  max-width: 800px;
+  text-align: center;
+}
 
 /* Responsiveness */
 
