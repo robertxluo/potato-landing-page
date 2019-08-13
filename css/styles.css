@@ -8,11 +8,54 @@ COLORS: #c3aa94 LIGHT BROWN
         #eac591 SAND
 */
 
+/* Base */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700&display=swap');
+
 html {
   background-image: linear-gradient(#ae957f, #c3aa94);
   color: #f1f1f1;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   min-height: 100vh;
   min-width: 300px;
   overflow-x: hidden;
+}
+
+a {
+  color: currentColor;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Specific */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin: 0 1.5rem;
+  text-transform: uppercase;
+}
+
+.buy-button {
+  border: 1px solid #f1f1f1;
+  border-radius: 75095px;
+  padding: 0.55rem 1rem;
 }
