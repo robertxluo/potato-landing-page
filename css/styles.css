@@ -94,3 +94,28 @@ a {
   background-image: #fff;
   min-height: 100vh;
 } */
+
+
+/* Responsiveness */
+
+/* Target smaller devices */
+@media screen and (max-width: 799px) {
+  .nav-item {
+    display: none;
+  }
+
+  .mobile-menu {
+    cursor: pointer;
+  }
+
+  .mobile-bar-1,
+  .mobile-bar-2,
+  .mobile-bar-3 {
+    width: 35px;    height: 5px;
+    background-color: #f1f1f1;
+    margin: 6px 0;
+  }
+}
+
+/* Target larger devices */
+@media screen and (min-width: 800px) {}
