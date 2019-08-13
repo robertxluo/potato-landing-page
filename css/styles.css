@@ -107,7 +107,7 @@ a {
   margin-top: 1rem;
 }
 
-/* Feature 1 Section */
+/* Feature 1 Section (Shapes and sizes) */
 
 .feature1 {
   background-color: #fff;
@@ -125,7 +125,7 @@ a {
   line-height: 1.25;
 }
 
-/* Feature 2 Section */
+/* Feature 2 Section (Nutrition) */
 
 .feature2 {
   background-color: #749865;
@@ -139,6 +139,26 @@ a {
 }
 
 .feature2-sub {
+  font-weight: 300;
+  line-height: 1.25;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Feature 3 Section (Easily Transformable) */
+
+.feature3 {
+  background-color: #eedeb4;
+  color: #8d6f2f;
+  min-height: 100vh;
+}
+
+.feature3-header {
+  font-weight: 300;
+  margin-bottom: 3.125rem;
+}
+
+.feature3-sub {
   font-weight: 300;
   line-height: 1.25;
   max-width: 800px;
