@@ -98,8 +98,8 @@ a {
 
 /* Responsiveness */
 
-/* Target smaller devices */
-@media screen and (max-width: 799px) {
+/* Target small mobile */
+@media screen and (max-width: 470px) {
   .nav-item {
     display: none;
   }
@@ -111,11 +111,73 @@ a {
   .mobile-bar-1,
   .mobile-bar-2,
   .mobile-bar-3 {
-    width: 35px;    height: 5px;
+    width: 35px;
+    height: 5px;
     background-color: #f1f1f1;
     margin: 6px 0;
   }
+
+  .headline {
+    font-size: 1.125rem;
+  }
+
+  .headline-sub {
+    font-size: 0.5625rem;
+  }
 }
 
-/* Target larger devices */
-@media screen and (min-width: 800px) {}
+/* Target large mobile */
+@media screen and (min-width: 471px) and (max-width: 767px) {
+  .nav-item {
+    display: none;
+  }
+
+  .mobile-menu {
+    cursor: pointer;
+  }
+
+  .mobile-bar-1,
+  .mobile-bar-2,
+  .mobile-bar-3 {
+    width: 35px;
+    height: 5px;
+    background-color: #f1f1f1;
+    margin: 6px 0;
+  }
+
+  .headline {
+    font-size: 2rem;
+  }
+
+  .headline-sub {
+    font-size: 1rem;
+  }
+}
+
+/* Target tablets  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-item {
+    display: none;
+  }
+
+  .mobile-menu {
+    cursor: pointer;
+  }
+
+  .mobile-bar-1,
+  .mobile-bar-2,
+  .mobile-bar-3 {
+    width: 35px;
+    height: 5px;
+    background-color: #f1f1f1;
+    margin: 6px 0;
+  }
+
+  .headline {
+    font-size: 3rem;
+  }
+
+  .headline-sub {
+    font-size: 1.5rem;
+  }
+}
