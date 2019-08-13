@@ -59,7 +59,11 @@ a {
 /* Navbar */
 
 .nav-hero {
-  background-image: linear-gradient(#ae957f, #c3aa94);
+  background-image: url('../images/potato.png'), linear-gradient(#ae957f, #c3aa94);
+  background-position: center 75%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
   min-height: 100vh;
 }
 
