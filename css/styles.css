@@ -133,6 +133,7 @@ a {
 
   .mobile-menu {
     cursor: pointer;
+    display: block;
   }
 
   .mobile-bar-1,
@@ -161,6 +162,7 @@ a {
 
   .mobile-menu {
     cursor: pointer;
+    display: block;
   }
 
   .mobile-bar-1,
@@ -189,6 +191,7 @@ a {
 
   .mobile-menu {
     cursor: pointer;
+    display: block;
   }
 
   .mobile-bar-1,
