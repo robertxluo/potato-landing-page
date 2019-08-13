@@ -145,6 +145,10 @@ a {
   text-align: center;
 }
 
+.header--bold {
+  font-weight: 400;
+}
+
 /* Responsiveness */
 
 /* Target small mobile */
