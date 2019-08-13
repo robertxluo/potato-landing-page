@@ -169,6 +169,25 @@ a {
   font-weight: 400;
 }
 
+/* Feature 4 Section (Testimonials) */
+
+.testimonials {
+  background-color: #f1f1f1;
+  color: #554f49;
+  min-height: 100vh;
+}
+
+.testimonials-header {
+  font-weight: 300;
+  margin-bottom: 3.125rem;
+}
+
+.testimonials-sub {
+  font-weight: 300;
+  line-height: 1.25;
+  max-width: 800px;
+}
+
 /* Responsiveness */
 
 /* Target small mobile */
