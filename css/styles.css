@@ -60,10 +60,9 @@ a {
 
 .nav-hero {
   background-image: url('../images/potato.png'), linear-gradient(#ae957f, #c3aa94);
-  background-position: center 75%;
+  background-position: center 65%;
   background-repeat: no-repeat;
   background-size: contain;
-
   min-height: 100vh;
 }
 
