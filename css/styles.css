@@ -28,7 +28,9 @@ a {
   text-decoration: none;
 }
 
-/* Specific */
+/* Specifics */
+
+/* Navbar */
 
 .navbar {
   display: flex;
@@ -58,4 +60,28 @@ a {
   border: 1px solid #f1f1f1;
   border-radius: 75095px;
   padding: 0.55rem 1rem;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.headline {
+  font-size: 4rem;
+}
+
+.headline-sub {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.0625rem;
+  margin-top: 1rem;
+}
+
+.headline-sub__bold {
+  font-weight: 600;
 }
