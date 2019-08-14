@@ -83,6 +83,10 @@ a:hover {
   font-weight: 600;
 }
 
+.title:hover {
+  text-decoration: none;
+}
+
 .nav-links {
   display: flex;
   justify-content: space-between;
