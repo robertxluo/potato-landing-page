@@ -54,11 +54,7 @@ a:hover {
   letter-spacing: 0.0625rem;
 }
 
-.responsive-image {
-  width: 100%;
-  height: auto;
-  max-width: 600px;
-}
+
 
 .subheader--bold {
   font-weight: 600;
@@ -180,7 +176,7 @@ a:hover {
 }
 
 .potato-chips-image {
-  padding-top: 7rem;
+  padding-top: 5rem;
 }
 
 /* Feature 4 Section (Testimonials) */

@@ -55,7 +55,15 @@
     <p class="subheader feature2-sub"> Because of its unique structure, <span
         class="subheader--bold">Potato&trade;</span> is easily useable and transformable in any way you can think of.
     </p>
-    <img class="responsive-image potato-chips-image" src="images/potato-chips-764.png" alt="A basket of potato chips.">
+
+    <picture>
+      <source media="(max-width: 470px)" srcset="images/potato-chips_320.png">
+      <source media="(max-width: 767px)" srcset="images/potato-chips_509.png">
+      <source media="(max-width: 1023px)" srcset="images/potato-chips_671.png">
+      <source media="(min-width: 1024px)" srcset="images/potato-chips_764.png">
+      <img class="potato-chips-image" src="images/potato-chips_764.png">
+    </picture>
+
   </section>
 
   <section class="section testimonials">
