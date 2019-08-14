@@ -63,7 +63,7 @@ a:hover {
 /* Navbar */
 
 .nav-hero {
-  background-image: url('../images/potato.png'), linear-gradient(#ae957f, #c3aa94);
+  background-image: url('../images/potato-hero.png'), linear-gradient(#ae957f, #c3aa94);
   background-position: center 65%;
   background-repeat: no-repeat;
   background-size: contain;
