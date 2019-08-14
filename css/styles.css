@@ -359,6 +359,15 @@ a:hover {
   .subheader {
     font-size: 0.666rem;
   }
+
+  .nutritional-facts {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nutritional-facts-item {
+    font-size: 1rem;
+  }
 }
 
 /* Target large mobile */
@@ -391,6 +400,15 @@ a:hover {
 
   .feature2-sub {
     max-width: 456px;
+  }
+
+  .nutritional-facts {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nutritional-facts-item {
+    font-size: 1.5rem;
   }
 }
 
@@ -426,6 +444,14 @@ a:hover {
     max-width: 650px;
   }
 
+  .nutritional-facts {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nutritional-facts-item {
+    font-size: 1.5rem;
+  }
 }
 
 
