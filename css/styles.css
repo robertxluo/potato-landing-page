@@ -151,6 +151,7 @@ a:hover {
 .feature2-sub {
   font-weight: 300;
   line-height: 1.25;
+  margin: 0 auto;
   max-width: 800px;
   text-align: center;
 }
@@ -166,13 +167,6 @@ a:hover {
 .feature3-header {
   font-weight: 300;
   margin-bottom: 3.125rem;
-}
-
-.feature3-sub {
-  font-weight: 300;
-  line-height: 1.25;
-  max-width: 800px;
-  text-align: center;
 }
 
 .header--bold {
@@ -363,6 +357,10 @@ a:hover {
   .subheader {
     font-size: 1rem;
   }
+
+  .feature2-sub {
+    max-width: 456px;
+  }
 }
 
 /* Target tablets  */
@@ -391,6 +389,10 @@ a:hover {
 
   .subheader {
     font-size: 1.5rem;
+  }
+
+  .feature2-sub {
+    max-width: 650px;
   }
 
 }
