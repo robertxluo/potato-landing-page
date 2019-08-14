@@ -54,10 +54,12 @@ a:hover {
   letter-spacing: 0.0625rem;
 }
 
-
-
 .subheader--bold {
   font-weight: 600;
+}
+
+.image {
+  padding: 5rem 0;
 }
 
 /* Specifics */
@@ -65,10 +67,7 @@ a:hover {
 /* Navbar */
 
 .nav-hero {
-  background-image: url('../images/potato-hero.png'), linear-gradient(#ae957f, #c3aa94);
-  background-position: center 65%;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: linear-gradient(#ae957f, #c3aa94);
   min-height: 100vh;
 }
 
@@ -165,7 +164,7 @@ a:hover {
 
 .nutritional-facts-item {
   font-size: 2rem;
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 0 3rem 2rem 3rem;
 }
 
 .nutritional-label {
@@ -189,9 +188,7 @@ a:hover {
   font-weight: 400;
 }
 
-.potato-chips-image {
-  padding-top: 5rem;
-}
+
 
 /* Feature 4 Section (Testimonials) */
 
@@ -210,6 +207,8 @@ a:hover {
   font-weight: 300;
   line-height: 1.25;
   max-width: 800px;
+  padding-top: 6rem;
+  text-align: center;
 }
 
 /* Purchase Section */
