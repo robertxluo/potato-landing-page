@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .mobile-menu {
   display: none;
 }
@@ -94,7 +98,13 @@ a {
   border: 1px solid #f1f1f1;
   border-radius: 75095px;
   padding: 0.55rem 1rem;
+
 }
+
+.buy-button:hover {
+  text-decoration: none;
+}
+
 
 /* Hero Section */
 
@@ -196,15 +206,72 @@ a {
   min-height: 100vh;
 }
 
+.purchase-options {
+  padding-top: 8rem;
+}
+
 .purchase-header {
   font-weight: 300;
   margin-bottom: 3.125rem;
 }
 
 .purchase-sub {
+  align-self: center;
+  font-size: 1.75rem;
   font-weight: 300;
   line-height: 1.25;
   max-width: 800px;
+  padding-bottom: 1.75rem;
+}
+
+.purchase-options {
+  display: flex;
+  justify-content: center;
+}
+
+.purchase-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 4.6875rem;
+}
+
+.potato-lite {
+  border-right: 1px solid #808080;
+}
+
+.potato-pro {
+  border-right: 1px solid #808080;
+}
+
+.purchase-item {
+  font-weight: 300;
+  font-size: 1.5rem;
+  list-style: disc;
+  line-height: 2;
+}
+
+.order-body {
+  justify-content: flex-end;
+  align-self: center;
+  padding: 5rem 0;
+}
+
+.starting-price {
+  color: #808080;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.buy-button--green {
+  border: 1px solid #89b684;
+  border-radius: 75095px;
+  color: #89b684;
+  list-style: none;
+  padding: 0.55rem 2rem;
+  text-transform: uppercase;
 }
 
 /* Footer */
@@ -231,6 +298,11 @@ a {
   font-size: 1rem;
   margin: 0 1.5rem;
   text-transform: uppercase;
+}
+
+.footer-item__author {
+  margin: 0;
+  text-transform: none;
 }
 
 /* Responsiveness */
