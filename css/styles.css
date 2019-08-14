@@ -103,6 +103,8 @@ a:hover {
 }
 
 .buy-button:hover {
+  background-color: #f1f1f1;
+  color: #554f49;
   text-decoration: none;
 }
 
@@ -285,6 +287,12 @@ a:hover {
   list-style: none;
   padding: 0.55rem 2rem;
   text-transform: uppercase;
+}
+
+.buy-button--green:hover {
+  background-color: #89b684;
+  color: #f1f1f1;
+  text-decoration: none;
 }
 
 /* Footer */
