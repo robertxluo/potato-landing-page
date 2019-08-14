@@ -428,6 +428,7 @@ a:hover {
   .purchase-links {
     border: 1px solid #808080;
     padding-top: 1rem;
+    margin-bottom: 2rem;
   }
 
   .purchase-item {
