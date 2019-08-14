@@ -158,6 +158,20 @@ a:hover {
   text-align: center;
 }
 
+.nutritional-facts {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nutritional-facts-item {
+  font-size: 2rem;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.nutritional-label {
+  font-weight: 100;
+}
+
 /* Feature 3 Section (Easily Transformable) */
 
 .feature3 {
