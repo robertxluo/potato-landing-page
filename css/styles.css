@@ -28,7 +28,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  padding-bottom: 5px;
+  border-bottom: 3px solid currentColor;
 }
 
 .mobile-menu {
@@ -110,6 +111,7 @@ a:hover {
   background-color: #f1f1f1;
   color: #554f49;
   text-decoration: none;
+  border: none;
 }
 
 
