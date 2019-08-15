@@ -332,8 +332,8 @@ a:hover {
 
 /* Responsiveness */
 
-/* Target small mobile */
-@media screen and (max-width: 470px) {
+/* Target mobile */
+@media screen and (max-width: 767px) {
   .nav-item {
     display: none;
   }
@@ -354,56 +354,17 @@ a:hover {
 
   .header {
     font-size: 2rem;
-    padding: 0 2rem;
-    text-align: center;
-  }
-
-  .subheader {
-    font-size: 1rem;
-    padding: 0 2rem;
-    text-align: center;
-  }
-
-  .nutritional-facts {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nutritional-facts-item {
-    font-size: 1.5rem;
-  }
-}
-
-/* Target large mobile */
-@media screen and (min-width: 471px) and (max-width: 767px) {
-  .nav-item {
-    display: none;
-  }
-
-  .mobile-menu {
-    cursor: pointer;
-    display: block;
-  }
-
-  .mobile-bar-1,
-  .mobile-bar-2,
-  .mobile-bar-3 {
-    width: 35px;
-    height: 5px;
-    background-color: #f1f1f1;
-    margin: 6px 0;
-  }
-
-  .header {
-    font-size: 2rem;
-  }
-
-  .subheader {
-    font-size: 1rem;
-  }
-
-  .feature2-sub {
     max-width: 456px;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .subheader {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 456px;
+    padding: 0 2rem;
+    text-align: center;
   }
 
   .nutritional-facts {
@@ -414,6 +375,11 @@ a:hover {
   .nutritional-facts-item {
     font-size: 1.5rem;
   }
+
+  .testimonials-sub {
+    padding-top: 10rem;
+  }
+
 }
 
 /* Target tablets  */
@@ -442,9 +408,6 @@ a:hover {
 
   .subheader {
     font-size: 1.5rem;
-  }
-
-  .feature2-sub {
     max-width: 650px;
   }
 
