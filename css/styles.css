@@ -377,6 +377,10 @@ a:hover {
     font-size: 1.5rem;
   }
 
+  .nutritional-label {
+    font-weight: 300;
+  }
+
   .testimonials-sub {
     padding-top: 10rem;
   }
@@ -424,6 +428,8 @@ a:hover {
   .nutritional-facts-item {
     font-size: 1.5rem;
   }
+
+
 }
 
 
