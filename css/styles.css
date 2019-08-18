@@ -28,10 +28,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .mobile-menu {
   display: none;
 }
@@ -98,6 +94,11 @@ a:hover {
   letter-spacing: 0.1rem;
   margin: 0 1.5rem;
   text-transform: uppercase;
+}
+
+.nav-item>a:hover {
+  border-bottom: 3px solid currentColor;
+  padding-bottom: .35rem;
 }
 
 .buy-button {
@@ -324,6 +325,11 @@ a:hover {
   font-size: 1rem;
   margin: 0 1.5rem;
   text-transform: uppercase;
+}
+
+.footer-item>a:hover {
+  border-bottom: 3px solid currentColor;
+  padding-bottom: .35rem;
 }
 
 .footer-item__author {
