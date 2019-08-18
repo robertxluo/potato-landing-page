@@ -337,6 +337,13 @@ a {
   text-transform: none;
 }
 
+.footer-item__author:hover {
+  border-bottom: 3px solid currentColor;
+  padding-bottom: .25rem;
+}
+
+
+
 /* Responsiveness */
 
 /* Target mobile */
