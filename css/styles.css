@@ -63,40 +63,40 @@ a {
 
 /* Navbar */
 
-.nav-hero {
+.nav {
   background-image: linear-gradient(#ae957f, #c3aa94);
   min-height: 100vh;
 }
 
-.navbar {
+.nav__navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 2.5rem;
 }
 
-.title {
+.nav__title {
   font-size: 2.25rem;
   font-weight: 600;
 }
 
-.title:hover {
+.nav__title:hover {
   text-decoration: none;
 }
 
-.nav-links {
+.nav__links {
   display: flex;
   justify-content: space-between;
 }
 
-.nav-item {
+.nav__item {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   margin: 0 1.5rem;
   text-transform: uppercase;
 }
 
-.nav-item>a:hover {
+.nav__item>a:hover {
   border-bottom: 3px solid currentColor;
   padding-bottom: .35rem;
 }
@@ -121,7 +121,7 @@ a {
   margin-top: 7rem;
 }
 
-.header-sub {
+.header__subheader {
   font-weight: 100;
   margin-top: 1rem;
 }
@@ -134,12 +134,12 @@ a {
   min-height: 100vh;
 }
 
-.feature1-header {
+.feature1__header {
   font-weight: 300;
   margin-bottom: 3.125rem;
 }
 
-.feature1-sub {
+.feature1__subheader {
   font-weight: 300;
   line-height: 1.25;
 }
@@ -152,12 +152,12 @@ a {
   min-height: 100vh;
 }
 
-.feature2-header {
+.feature2__header {
   font-weight: 300;
   margin-bottom: 3.125rem;
 }
 
-.feature2-sub {
+.feature2__subheader {
   font-weight: 300;
   line-height: 1.25;
   margin: 0 auto;
@@ -170,12 +170,12 @@ a {
   align-items: flex-end;
 }
 
-.nutritional-facts-item {
+.nutritional-facts__item {
   font-size: 2rem;
   padding: 0 3rem 2rem 3rem;
 }
 
-.nutritional-label {
+.nutritional-facts__label {
   font-weight: 100;
 }
 
@@ -187,7 +187,7 @@ a {
   min-height: 100vh;
 }
 
-.feature3-header {
+.feature3__header {
   font-weight: 300;
   margin-bottom: 3.125rem;
 }
@@ -206,12 +206,12 @@ a {
   min-height: 100vh;
 }
 
-.testimonials-header {
+.testimonials__header {
   font-weight: 300;
   margin-bottom: 3.125rem;
 }
 
-.testimonials-sub {
+.testimonials__subheader {
   font-weight: 300;
   line-height: 1.25;
   max-width: 800px;
@@ -227,16 +227,16 @@ a {
   min-height: 100vh;
 }
 
-.purchase-options {
+.purchase__options {
   padding-top: 8rem;
 }
 
-.purchase-header {
+.purchase__header {
   font-weight: 300;
   margin-bottom: 3.125rem;
 }
 
-.purchase-sub {
+.purchase__subheader {
   align-self: center;
   font-size: 1.75rem;
   font-weight: 300;
@@ -245,40 +245,40 @@ a {
   padding-bottom: 1.75rem;
 }
 
-.purchase-options {
+.purchase__options {
   display: flex;
   justify-content: center;
 }
 
-.purchase-links {
+.purchase__links {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0 4.6875rem;
 }
 
-.potato-lite {
+.purchase__potato-lite {
   border-right: 1px solid #808080;
 }
 
-.potato-pro {
+.purchase__potato-pro {
   border-right: 1px solid #808080;
 }
 
-.purchase-item {
+.purchase__item {
   font-weight: 300;
   font-size: 1.5rem;
   list-style: disc;
   line-height: 2;
 }
 
-.order-body {
+.purchase__order-body {
   justify-content: flex-end;
   align-self: center;
   padding: 5rem 0;
 }
 
-.starting-price {
+.purchase__starting-price {
   color: #808080;
   font-size: 0.85rem;
   font-weight: 600;
@@ -311,33 +311,33 @@ a {
   padding: 2.5rem 0;
 }
 
-.footer-authorship {
+.footer__authorship {
   line-height: 2;
 }
 
-.footer-links {
+.footer__links {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.footer-item {
+.footer__item {
   font-size: 1rem;
   margin: 0 1.5rem;
   text-transform: uppercase;
 }
 
-.footer-item>a:hover {
+.footer__item>a:hover {
   border-bottom: 3px solid currentColor;
   padding-bottom: .35rem;
 }
 
-.footer-item__author {
+.footer__item-author {
   margin: 0;
   text-transform: none;
 }
 
-.footer-item__author:hover {
+.footer__item-author:hover {
   border-bottom: 3px solid currentColor;
   padding-bottom: .25rem;
 }
@@ -348,7 +348,7 @@ a {
 
 /* Target mobile */
 @media screen and (max-width: 767px) {
-  .nav-item {
+  .nav__item {
     display: none;
   }
 
@@ -386,19 +386,19 @@ a {
     align-items: flex-start;
   }
 
-  .nutritional-facts-item {
+  .nutritional-facts__item {
     font-size: 1.5rem;
   }
 
-  .nutritional-label {
+  .nutritional-facts__label {
     font-weight: 300;
   }
 
-  .testimonials-sub {
+  .testimonials__subheader {
     padding-top: 10rem;
   }
 
-  .footer-authorship {
+  .footer__authorship {
     margin: 0 2rem;
   }
 
@@ -406,7 +406,7 @@ a {
 
 /* Target tablets  */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .nav-item {
+  .nav__item {
     display: none;
   }
 
@@ -438,7 +438,7 @@ a {
     align-items: flex-start;
   }
 
-  .nutritional-facts-item {
+  .nutritional-facts__item {
     font-size: 1.5rem;
   }
 
@@ -452,28 +452,25 @@ a {
   /* Purchase section */
 
 
-  .purchase-options {
+  .purchase__options {
+    flex-direction: column;
     padding-top: 0;
   }
 
-  .purchase-sub {
+  .purchase__subheader {
     font-size: 1.3125rem;
     padding-bottom: 1rem;
   }
 
-  .purchase-options {
-    flex-direction: column;
-  }
-
-  .potato-lite {
+  .purchase__potato-lite {
     border-right: none;
   }
 
-  .potato-pro {
+  .purchase__potato-pro {
     border-right: none;
   }
 
-  .purchase-links {
+  .purchase__links {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding-top: 1rem;
@@ -481,16 +478,16 @@ a {
     transition: 0.3s;
   }
 
-  .purchase-links:hover {
+  .purchase__links:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 
-  .purchase-item {
+  .purchase__item {
     font-size: 1.125rem;
     line-height: 1.5;
   }
 
-  .order-body {
+  .purchase__order-body {
     padding: 1.5rem 0 1rem 0;
   }
 
@@ -503,23 +500,23 @@ a {
     padding: 1rem 0;
   }
 
-  .footer-authorship {
+  .footer__authorship {
     margin-top: 1rem;
     line-height: 1.5;
     order: 2;
   }
 
-  .footer-links {
+  .footer__links {
     display: flex;
     flex-direction: column;
   }
 
-  .footer-item {
+  .footer__item {
     font-size: 1rem;
     line-height: 3;
   }
 
-  .footer-item__author {
+  .footer__item-author {
     line-height: 1.5;
     margin: 0;
     text-transform: none;
