@@ -471,10 +471,13 @@ a {
   }
 
   .purchase__links {
+    background-color: #f1f1f1;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding-top: 1rem;
     margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     transition: 0.3s;
   }
 
