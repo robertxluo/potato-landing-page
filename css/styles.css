@@ -366,6 +366,21 @@ a {
     margin: 6px 0;
   }
 
+  /* Rotate first bar */
+  .change .mobile-bar-1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  /* Fade out the second bar */
+  .change .mobile-bar-2 {
+    opacity: 0;
+  }
+
+  /* Rotate last bar */
+  .change .mobile-bar-3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
   .header {
     font-size: 2rem;
     max-width: 456px;
@@ -422,6 +437,21 @@ a {
     height: 5px;
     background-color: #f1f1f1;
     margin: 6px 0;
+  }
+
+  /* Rotate first bar */
+  .change .mobile-bar-1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  /* Fade out the second bar */
+  .change .mobile-bar-2 {
+    opacity: 0;
+  }
+
+  /* Rotate last bar */
+  .change .mobile-bar-3 {
+    transform: rotate(45deg) translate(-8px, -8px);
   }
 
   .header {
