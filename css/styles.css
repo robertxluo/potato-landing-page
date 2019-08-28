@@ -458,10 +458,6 @@ a {
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
-  /* Display nav links in mobile */
-  .change .nav__mobile-links {
-    display: block;
-  }
 
   .header {
     font-size: 3rem;
@@ -480,13 +476,39 @@ a {
   .nutritional-facts__item {
     font-size: 1.5rem;
   }
-
-
 }
 
 
 /* Target all smaller than desktop  */
 @media screen and (max-width: 1227px) {
+
+  .nav__mobile-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav__mobile-item {
+    border: 1px solid #f1f1f1;
+    text-align: center;
+  }
+
+  .nav__mobile-item a {
+    border: 1px solid #f1f1f1;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  .nav__mobile-item a:hover {
+    background-color: #554f49;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+
+
 
   /* Purchase section */
 

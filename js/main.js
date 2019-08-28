@@ -18,11 +18,12 @@ document.getElementsByTagName('body')[0].onresize = function() {
 
 const checkWindowWidth = () => {
   windowWidth = window.innerWidth;
-  if (windowWidth > 1024) {
-    nav.style.display = 'none';
-  }
 
   if (hamburgerButton.classList.contains('change')) {
-    hamburgerButton.classList.toggle('change');
+    nav.style.display = 'block';
+  }
+
+  if (windowWidth > 1024) {
+    nav.style.display = 'none';
   }
 };
