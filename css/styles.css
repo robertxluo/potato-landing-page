@@ -32,6 +32,10 @@ a {
   display: none;
 }
 
+.nav__mobile-links {
+  display: none;
+}
+
 /* Shared */
 
 .section {
@@ -454,6 +458,11 @@ a {
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
+  /* Display nav links in mobile */
+  .change .nav__mobile-links {
+    display: block;
+  }
+
   .header {
     font-size: 3rem;
   }
@@ -554,5 +563,7 @@ a {
     margin: 0;
     text-transform: none;
   }
+
+
 
 }
