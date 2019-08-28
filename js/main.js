@@ -1,11 +1,28 @@
 let nav = document.getElementById('navMobileLinks');
 nav.style.display = 'none';
+let windowWidth = window.innerWidth;
+let hamburgerButton = document.querySelector('.mobile-menu');
 
-const toggleHamburgerMenu = x => {
-  x.classList.toggle('change');
+const toggleHamburgerMenu = hamburgerButton => {
+  hamburgerButton.classList.toggle('change');
   if (nav.style.display === 'none') {
     nav.style.display = 'block';
   } else {
     nav.style.display = 'none';
+  }
+};
+
+document.getElementsByTagName('body')[0].onresize = function() {
+  checkWindowWidth();
+};
+
+const checkWindowWidth = () => {
+  windowWidth = window.innerWidth;
+  if (windowWidth > 1024) {
+    nav.style.display = 'none';
+  }
+
+  if (hamburgerButton.classList.contains('change')) {
+    hamburgerButton.classList.toggle('change');
   }
 };
