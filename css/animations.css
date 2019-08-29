@@ -15,13 +15,13 @@
 /* Animation Triggers */
 
 .header {
-  animation-name: fadeInUp;
   animation-delay: 100ms;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
+  animation-name: fadeInUp;
 }
 
 .subheader {
-  animation-name: fadeInUp;
   animation-delay: 100ms;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
+  animation-name: fadeInUp;
 }
